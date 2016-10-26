@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url('fond.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  text-align: center;
+  top: 0;
+  color: red;
+  border: solid 2px red;
+  background-color: rgba(0, 0, 0, 0.7);;
+}
+p{
+  text-align: center;
+  margin-top: 5px;
+  color: orange;
+  border: solid 2px red;
+  background-color: rgba(0, 0, 0, 0.7);;
+}
+/*== PERSONNAGE ==*/
+.soldat{
+  position: absolute;
+  width: 40%;
+  margin-top: 250px;
+  margin-left: 500px;
+}
+/*== EQUIPEMENT ==*/
+footer{
+  display: flex;
+  flex-direction: column;
+}
+.arme1{
+  width: 15%;
+}
+.arme2{
+  width: 15%;
+}
+.casque{
+  width: 6%;
+}
+.gilet{
+  width: 20%;
+}
+.grenade1{
+  width: 3%;
+}
+.grenade2{
+  width: 3%;
+}
+/*== DROPPABLE ==*/
+
+/* GILET */
+#casegilet{
+  position: absolute;
+  margin-left: 820px;
+  margin-top: 380px;
+  width: 4%;
+  padding: 3em;
+  float: left;
+}
+/* ARME ASSAUT */
+#casearme1{
+  position: absolute;
+  margin-top: -30px;
+  margin-left: -20px;
+  width: 6%;
+  padding: 3em;
+  float: left;
+}
+/* ARME PISTOLET */
+#casearme2{
+  position: absolute;
+  margin-left: -50px;
+  margin-top: 200px;
+  width: 6%;
+  padding: 2em;
+  float: left;
+}
+/* ARME PISTOLET */
+#casecasque{
+  position: absolute;
+  margin-left: -10px;
+  margin-top: -425px;
+  width: 6%;
+  padding: 2em;
+  float: left;
+}
+/* GRENADES */
+#casegrenade1{
+  position: absolute;
+  margin-left: -10px;
+  margin-top: 180px;
+  width: 6%;
+  padding: 2em;
+  float: left;
+}
